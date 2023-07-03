@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PlatinumStars-cc2eebbb-2b65-4e98-a7a5-912821b79971</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarBuyingSystem.Common\PlaneBuyingSystem.Common.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Data.Models\PlaneBuyingSystem.Data.Models.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Data\PlaneBuyingSystem.Data.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Web.ViewModels\PlaneBuyingSystem.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
